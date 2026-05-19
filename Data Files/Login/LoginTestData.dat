@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>fb3fddcf-dae0-44f7-99b8-ffcb4dcacc7a</dataFileGUID>
-   <dataSourceUrl>../../Downloads/Data Username dan Password.xlsx</dataSourceUrl>
+   <dataSourceUrl>assets/Data Username dan Password.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
