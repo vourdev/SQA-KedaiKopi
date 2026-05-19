@@ -19,10 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://pos.bling.my.id/')
 
-WebUI.setText(findTestObject('Page_Menu/Search-Manual/Page_KedaiKopi  Login/input_Email__R_1inpfl5tlb_-form-item'), 'order@gmail.com')
+WebUI.setText(findTestObject('Page_Menu/Search/Page_KedaiKopi  Login/input_Username'), username)
 
-WebUI.setEncryptedText(findTestObject('Page_Menu/Search-Manual/Page_KedaiKopi  Login/input_Password__R_2inpfl5tlb_-form-item'), 
-    'CEuORLdR8aA=')
+WebUI.setText(findTestObject('Page_Login/Valid/Page_Order Cafe  Login/input_Password'), password)
 
 WebUI.click(findTestObject('Page_Menu/Search-Manual/Page_KedaiKopi  Login/button_Login'))
 
@@ -38,6 +37,8 @@ WebUI.setText(findTestObject('Page_Menu/Search-Manual/Page_KedaiKopi  Order Mana
     'VOURCAFE-1778568320970')
 
 WebUI.verifyElementVisible(findTestObject('Page_Menu/Search-Manual/Page_KedaiKopi  Order Management/td_No Result Data'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 
