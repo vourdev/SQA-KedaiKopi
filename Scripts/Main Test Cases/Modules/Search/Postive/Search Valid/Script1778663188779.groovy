@@ -17,25 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://pos.bling.my.id/')
 
-WebUI.navigateToUrl('https://pos.bling.my.id/')
+WebUI.setText(findTestObject('Page_Menu/Search/Page_KedaiKopi  Login/input_Username'), username)
 
-WebUI.setText(findTestObject('Page_Menu/Search/Page_KedaiKopi  Login/input_Username'), 'order@gmail.com')
+WebUI.setText(findTestObject('Page_Login/Valid/Page_Order Cafe  Login/input_Password'), password)
 
-WebUI.setEncryptedText(findTestObject('Page_Menu/Search/Page_KedaiKopi  Login/input__'), 'CEuORLdR8aA=')
+WebUI.click(findTestObject('Page_Menu/Search-Manual/Page_KedaiKopi  Login/button_Login'))
 
-WebUI.click(findTestObject('Page_Menu/Search/Page_KedaiKopi  Login/button_Login'))
+WebUI.click(findTestObject('Page_Menu/Search-Manual/Page_Create Next App/button_Access Dashboard'))
 
-WebUI.click(findTestObject('Page_Menu/Search/Page_Create Next App/button_Access Dashboard'))
+WebUI.navigateToUrl('https://pos.bling.my.id/admin')
 
-WebUI.click(findTestObject('Page_Menu/Search/Page_KedaiKopi  Dashboard/span_Order'))
+WebUI.click(findTestObject('Page_Menu/Search-Manual/Page_KedaiKopi  Order Management/a_Order'))
 
-WebUI.setText(findTestObject('Page_Menu/Search/Page_KedaiKopi  Order Management/input_Search'), 'WPUCAFE0018')
+WebUI.navigateToUrl('https://pos.bling.my.id/order')
 
-WebUI.click(findTestObject('Page_Menu/Search/Page_KedaiKopi  Order Management/input_Search'))
+WebUI.setText(findTestObject('Page_Menu/Search-Manual/Page_KedaiKopi  Order Management/input_Table Map_filetext-foreground placeho_9a23fe'), 
+    'VOURCAFE-1778568320969')
 
-WebUI.click(findTestObject('Page_Menu/Search/Page_KedaiKopi  Order Management/td_No Result Data'))
+WebUI.verifyElementVisible(findTestObject('Page_Menu/Search-Manual/Page_KedaiKopi  Order Management/td_No Result Data'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 
