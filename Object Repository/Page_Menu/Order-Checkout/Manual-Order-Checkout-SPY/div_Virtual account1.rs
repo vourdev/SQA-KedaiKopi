@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Virtual account1</name>
+   <tag></tag>
+   <elementGuidId>ca60f2b7-ca10-433b-8e1a-a47f8048091c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.collapsible-payment--multiple__body</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='bank_transfer']/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#bank_transfer div >> internal:has-text=&quot;Virtual account+1&quot;i >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>46ac7850-2ebf-47d0-86c1-266a1f259c60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>collapsible-payment--multiple__body</value>
+      <webElementGuid>c197be3a-4d48-47f9-8b66-b6306f7888de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Virtual account+1</value>
+      <webElementGuid>308815cc-08c5-42f6-996a-220c9e811b1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bank_transfer&quot;)/div[@class=&quot;collapsible-payment&quot;]/div[@class=&quot;collapsible collapsible-payment--multiple&quot;]/div[@class=&quot;collapse-button collapsible-payment--multiple&quot;]/div[@class=&quot;collapsible-payment--multiple__body&quot;]</value>
+      <webElementGuid>7033f3d8-00ca-4066-bddc-64b010753f32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Menu/Order-Checkout/Manual-Order-Checkout-SPY/iframe_concat(id(, , snap-midtrans, , ))_sn_61adae</value>
+      <webElementGuid>75d88613-9507-427d-bdbe-d5ce9a163487</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bank_transfer']/div/div/div/div</value>
+      <webElementGuid>ba840aba-b4b4-40df-9ad2-591590dd3482</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Credit/debit card'])[1]/following::div[12]</value>
+      <webElementGuid>4db71e71-630b-4dcc-a27e-5aa2d05c1e30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All payment methods'])[1]/following::div[15]</value>
+      <webElementGuid>f7e41705-f89d-4183-9833-48c4aea9efa2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GoPay QRIS'])[2]/preceding::div[12]</value>
+      <webElementGuid>11d313ce-9520-4e45-a17c-34792c1a9f48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/div</value>
+      <webElementGuid>050fd872-be26-4326-a508-c8ecdd2ab323</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Virtual account+1' or . = 'Virtual account+1')]</value>
+      <webElementGuid>f32ab86c-6cd7-43bd-a573-cc2cb1f0ac62</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
