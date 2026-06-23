@@ -41,7 +41,7 @@ WebUI.setText(findTestObject('Page_Menu/Order-Menu/input_Customer Name (1)'), 'b
 
 WebUI.click(findTestObject('Page_Menu/Order-Menu/button_Select Table (1)'))
 
-WebUI.click(findTestObject('Page_Menu/Order-Menu/Status_Button'))
+WebUI.click(findTestObject('Page_Menu/Order/button_Meja Meeting 01 - available (20)'))
 
 WebUI.click(findTestObject('Page_Menu/Order-Menu/button_Select Status (1)'))
 
