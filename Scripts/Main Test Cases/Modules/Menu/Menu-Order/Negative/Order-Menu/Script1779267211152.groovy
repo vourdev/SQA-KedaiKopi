@@ -39,11 +39,12 @@ WebUI.click(findTestObject('Page_Menu/Order-Menu/button_Dine In'))
 
 WebUI.setText(findTestObject('Page_Menu/Order-Menu/input_Customer Name (1)'), 'bagas')
 
-WebUI.click(findTestObject('Page_Menu/Order-Menu/button_Select Table (1)'))
+WebUI.click(findTestObject('Page_Menu/Order-Menu/button_Select Status (1)'))
 
-WebUI.click(findTestObject('Page_Menu/Order-Menu/Button_Testing Meja_2'))
+WebUI.click(findTestObject('Page_Menu/Order-Menu/Button_Reseved'))
 
 WebUI.click(findTestObject('Page_Menu/Order-Menu/button_Create'))
 
 WebUI.delay(5)
 
+WebUI.closeBrowser()

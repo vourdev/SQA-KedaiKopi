@@ -50,7 +50,7 @@ WebUI.delay(2)
 
 WebUI.setText(findTestObject('Page_Menu/Create-Menu/Page_KedaiKopi  Menu Management/input_Insert discount here'), '10')
 
-WebUI.setText(findTestObject('Page_Menu/Create-Menu/Page_KedaiKopi  Menu Management/input_image_url'), '/Users/zero/Downloads/7003-sulsel.png')
+WebUI.setText(findTestObject('Page_Menu/Create-Menu/Page_KedaiKopi  Menu Management/input_image_url'), '/Users/zero/Downloads/thumb-spmb-3.png')
 
 WebUI.delay(2)
 

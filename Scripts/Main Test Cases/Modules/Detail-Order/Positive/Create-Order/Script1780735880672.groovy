@@ -33,4 +33,38 @@ WebUI.waitForElementClickable(findTestObject('Page_Login/Valid/Page_Create Next 
 
 WebUI.click(findTestObject('Page_Login/Valid/Page_Create Next App/button_Access Dashboard'))
 
+WebUI.click(findTestObject('Page_Menu/Order/a_Order'))
+
+WebUI.click(findTestObject('Page_Menu/Order/button_detail_reserved'))
+
+WebUI.click(findTestObject('Page_Menu/Order/div_Process'))
+
+WebUI.click(findTestObject('Page_Menu/Order/button_detail_reserved'))
+
+WebUI.click(findTestObject('Page_Menu/Order/button_detail_order'))
+
+WebUI.click(findTestObject('Page_Menu/Order/button_Create'))
+
+WebUI.click(findTestObject('Page_Menu/Order/button_inline-flex items-center justify-center g'))
+
+WebUI.setText(findTestObject('Page_Menu/Order/input_Add Note_1'), 'Less Sugar')
+
+WebUI.click(findTestObject('Page_Menu/Order/button_Order'))
+
+WebUI.click(findTestObject('Page_Menu/Order/button_dropdown_trigger'))
+
+WebUI.click(findTestObject('Page_Menu/Order/button_detail_order'))
+
+WebUI.click(findTestObject('Page_Menu/Order/button_dropdown_trigger'))
+
+WebUI.click(findTestObject('Page_Menu/Order/button_detail_order'))
+
+WebUI.click(findTestObject('Page_Menu/Order/button_dropdown_trigger'))
+
+WebUI.click(findTestObject('Page_Menu/Order/button_detail_order'))
+
+WebUI.click(findTestObject('Page_Menu/Order/button_Pay'))
+
 WebUI.closeBrowser()
+
+

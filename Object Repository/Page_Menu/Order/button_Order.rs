@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Order</name>
+   <tag></tag>
+   <elementGuidId>b1aa4c8b-d9fe-4c00-a574-3407d57e2098</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' whitespace-nowrap ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' font-semibold ') and contains(concat(' ', normalize-space(@class), ' '), ' shadow-xs ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' [&amp;_svg]:pointer-events-none ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ') and (@data-slot = 'button')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.whitespace-nowrap.justify-center.rounded-md.font-semibold.shadow-xs.text-sm.\[\&amp;_svg\]\:pointer-events-none.text-white[data-slot=&quot;button&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d4770321-0e1c-4b64-8fc9-cc645fad3e89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-slot</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8eb278bb-1a9c-4177-a775-26e315b884cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive shadow-xs h-9 px-4 py-2 has-[>svg]:px-3 w-full font-semibold bg-teal-500 hover:bg-teal-600 cursor-pointer text-white</value>
+      <webElementGuid>d145d01b-b75a-4009-90e7-636531919b07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Order</value>
+      <webElementGuid>e8386774-b80a-4cf0-8349-46347e11a943</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9cf27249cf7c0fce70da2eddd438d451</value>
+      <webElementGuid>c9905577-852a-4974-98f6-a37e1ce3837b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' whitespace-nowrap ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' font-semibold ') and contains(concat(' ', normalize-space(@class), ' '), ' shadow-xs ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' [&amp;_svg]:pointer-events-none ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ') and (@data-slot = 'button')]</value>
+      <webElementGuid>011bd5cd-bf6b-4892-b1c2-98efcf653e2c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' whitespace-nowrap ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' font-semibold ') and contains(concat(' ', normalize-space(@class), ' '), ' shadow-xs ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' [&amp;_svg]:pointer-events-none ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ') and (@data-slot = 'button')]</value>
+      <webElementGuid>80afbe31-4cd3-45cf-93e3-3f1f86d4f0fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Order' or . = 'Order')]</value>
+      <webElementGuid>7a70946f-7ca3-42af-b2ec-05733fbeaac5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

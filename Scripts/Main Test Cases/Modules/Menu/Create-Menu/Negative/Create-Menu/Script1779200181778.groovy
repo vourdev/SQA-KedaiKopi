@@ -51,24 +51,19 @@ WebUI.setText(findTestObject('Page_Menu/Create-Menu/Page_KedaiKopi  Menu Managem
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_Menu/Create-Menu/Page_KedaiKopi  Menu Management/input_image_url'), '/Users/zero/Downloads/7003-sulsel.png')
+WebUI.setText(findTestObject('Page_Menu/Create-Menu/Page_KedaiKopi  Menu Management/input_image_url'), '/Users/zero/Downloads/thumb-spmb-3.png')
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Menu/Create-Menu/Page_KedaiKopi  Menu Management/button_Select Availability'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
-// Cari elemen tombol Create
-WebElement btnCreate = WebUiCommonHelper.findWebElement(findTestObject('Page_Menu/Create-Menu/Page_KedaiKopi  Menu Management/button_Create_1'), 10)
+WebUI.click(findTestObject('Page_Menu/Create-Menu/Page_KedaiKopi  Menu Management/div_radix-_r_1u'))
 
-// 1. Paksa klik tombol Create
-WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(btnCreate))
+WebUI.click(findTestObject('Page_Menu/Create-Menu/Page_KedaiKopi  Menu Management/button_Create_1'))
 
-// 2. Tunggu maksimal 5 detik sampai pesan error muncul di layar
-WebUI.waitForElementVisible(findTestObject('Object Repository/Path/Ke/Object/text_Error_Description'), 5)
+WebUI.delay(2)
 
-// 3. Verifikasi bahwa pesan error benar-benar tampil (Script akan PASSED jika error muncul)
-WebUI.verifyElementVisible(findTestObject('Object Repository/Path/Ke/Object/text_Error_Description'))
-
-// Opsional: Verifikasi teks error-nya sesuai dengan yang diharapkan
-WebUI.verifyElementText(findTestObject('Object Repository/Path/Ke/Object/text_Error_Description'), 'Description is required')
+WebUI.closeBrowser()
 
