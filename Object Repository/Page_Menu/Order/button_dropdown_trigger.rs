@@ -6,12 +6,12 @@
    <elementGuidId>0d6e6dbe-0b0b-4952-994c-e89aa569f2e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' text-muted-foreground ') and (@aria-haspopup = 'menu') and (@data-slot = 'dropdown-menu-trigger') and (@type = 'button')]</value>
+         <key>BASIC</key>
+         <value>//button[@data-slot = 'dropdown-menu-trigger' and @aria-haspopup = 'menu' and @data-state = 'closed' and @data-testid = 'detail-order-1']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@data-slot = 'dropdown-menu-trigger' and @type = 'button' and @aria-haspopup = 'menu' and @data-state = 'closed']</value>
+         <key>XPATH</key>
+         <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' text-muted-foreground ') and (@aria-haspopup = 'menu') and (@data-slot = 'dropdown-menu-trigger') and (@type = 'button')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f82e10dc-23a4-4b16-a399-bcde12f362c7</webElementGuid>
+      <webElementGuid>0f391fd3-e12d-4eb5-b614-d6bf25bb93d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>dropdown-menu-trigger</value>
-      <webElementGuid>04c6d50a-c6dd-4a69-bfd8-357b324eac17</webElementGuid>
+      <webElementGuid>65b83e6e-d145-4e8f-9d79-e0df2c52f144</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,23 +43,23 @@
       <name>class</name>
       <type>Main</type>
       <value>items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 data-[state=open]:bg-muted text-muted-foreground flex size-8</value>
-      <webElementGuid>e7a4801d-0209-4ac7-b3fa-3a21e163cf4f</webElementGuid>
+      <webElementGuid>eaa61bb3-a7af-4671-904d-46395a6c7698</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8fc620e1-10c8-4d31-90f5-29d4e01cd53e</webElementGuid>
+      <webElementGuid>8470bd89-42dc-4305-916c-080a6d325a49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>radix-_r_2g_</value>
-      <webElementGuid>f97c8d5a-20d0-4aa5-899e-2d4430744973</webElementGuid>
+      <value>radix-_r_l_</value>
+      <webElementGuid>2a30bb53-f5e7-435b-a7ae-fe8ca03cbb61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -67,7 +67,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>menu</value>
-      <webElementGuid>ead76627-af85-4e17-bd26-d7f6394ac51e</webElementGuid>
+      <webElementGuid>043417b2-6d43-4a0f-8453-bd0b9931b0bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>685d9544-b0da-46d0-9c6d-39eb7a967cc8</webElementGuid>
+      <webElementGuid>ae638cbe-6768-47fd-bcb4-4168b083195b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -83,7 +83,7 @@
       <name>data-state</name>
       <type>Main</type>
       <value>closed</value>
-      <webElementGuid>be259c30-0c8f-47e6-9b80-6d396503e78e</webElementGuid>
+      <webElementGuid>6398a522-7ee8-4846-8b1a-c07d3794b2a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-00a00734186d230ef5d3643388460547</value>
-      <webElementGuid>2a1db0f2-ca89-4afe-9889-74d56ab48f7b</webElementGuid>
+      <webElementGuid>65d47359-4d5b-4dfa-9f08-23acff335ddf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,7 +99,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' text-muted-foreground ') and (@aria-haspopup = 'menu') and (@data-slot = 'dropdown-menu-trigger') and (@type = 'button')]</value>
-      <webElementGuid>c88348e1-d263-46bf-b7ae-2fddf6750175</webElementGuid>
+      <webElementGuid>c21f18b9-c817-4b37-b593-1a1e032583c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>detail-order-1</value>
+      <webElementGuid>838ec6ae-31e8-4a24-b3a5-0a6c13e1791c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +115,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' text-muted-foreground ') and (@aria-haspopup = 'menu') and (@data-slot = 'dropdown-menu-trigger') and (@type = 'button')]</value>
-      <webElementGuid>e467aae9-266e-426f-9786-59858179d001</webElementGuid>
+      <webElementGuid>854d4197-fad4-4383-a3c0-c018c1bfc3a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +123,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'radix-_r_2g_']</value>
-      <webElementGuid>fadab267-ca34-4a97-8c64-7d65d8a3399a</webElementGuid>
+      <webElementGuid>6369aab4-d951-4711-becf-22b4b7375fd7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

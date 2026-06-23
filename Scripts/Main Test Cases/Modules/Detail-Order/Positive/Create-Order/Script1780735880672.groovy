@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://pos.bling.my.id/')
 
-WebUI.setText(findTestObject('Page_Login/Valid/Page_Order Cafe  Login/input_Username'), 'vour@gmail.com')
+WebUI.setText(findTestObject('Page_Login/Valid/Page_Order Cafe  Login/input_Username'), username)
 
-WebUI.setEncryptedText(findTestObject('Page_Login/Valid/Page_Order Cafe  Login/input_Password'), '8bIcDAq1IGk=')
+WebUI.setText(findTestObject('Page_Login/Valid/Page_Order Cafe  Login/input_Password'), password)
 
 WebUI.click(findTestObject('Page_Login/Valid/Page_Order Cafe  Login/button_Login'))
 
@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Page_Menu/Order/div_Process'))
 
 WebUI.click(findTestObject('Page_Menu/Order/button_detail_reserved'))
 
-WebUI.click(findTestObject('Page_Menu/Order/button_detail_order'))
+WebUI.navigateToUrl('https://pos.bling.my.id/order/ORDERCAFE-1782192940516')
 
 WebUI.click(findTestObject('Page_Menu/Order/button_Create'))
 
@@ -53,15 +53,15 @@ WebUI.click(findTestObject('Page_Menu/Order/button_Order'))
 
 WebUI.click(findTestObject('Page_Menu/Order/button_dropdown_trigger'))
 
-WebUI.click(findTestObject('Page_Menu/Order/button_detail_order'))
+WebUI.click(findTestObject('Page_Menu/Order/button_process'))
 
 WebUI.click(findTestObject('Page_Menu/Order/button_dropdown_trigger'))
 
-WebUI.click(findTestObject('Page_Menu/Order/button_detail_order'))
+WebUI.click(findTestObject('Page_Menu/Order/button_ready'))
 
 WebUI.click(findTestObject('Page_Menu/Order/button_dropdown_trigger'))
 
-WebUI.click(findTestObject('Page_Menu/Order/button_detail_order'))
+WebUI.click(findTestObject('Page_Menu/Order/button_served'))
 
 WebUI.click(findTestObject('Page_Menu/Order/button_Pay'))
 

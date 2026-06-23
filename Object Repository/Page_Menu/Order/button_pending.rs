@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_detail_reserved</name>
+   <name>button_pending</name>
    <tag></tag>
-   <elementGuidId>aae02ec6-a85c-4e6b-8489-94283688f03b</elementGuidId>
+   <elementGuidId>9df891af-be3b-4362-91d0-e698bf9aa0e0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and @data-testid = 'order-1-trigger']</value>
+         <value>//*[@type = 'button' and @id = 'radix-_r_a_' and @data-testid = 'detail-order-1']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='radix-_r_2u_']</value>
+         <value>//button[@id='radix-_r_l_']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>//*[@data-testid=&quot;order-1-trigger&quot;]
-</value>
+         <value>#radix-_r_l_</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>dd17e33d-0880-48e2-8211-55d46b9710b8</webElementGuid>
+      <webElementGuid>b8b936fe-f6e9-4a32-adde-eceed2d6b05b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,15 +35,15 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>dropdown-menu-trigger</value>
-      <webElementGuid>b4784f60-c7df-4a92-b082-1af45e96f73a</webElementGuid>
+      <webElementGuid>57948099-1c7b-45c4-97fd-b0aa1630d4a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 text-muted-foreground size-8</value>
-      <webElementGuid>cf7187f6-38d1-4b81-bfb2-1a748d907d6a</webElementGuid>
+      <value>items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 data-[state=open]:bg-muted text-muted-foreground flex size-8</value>
+      <webElementGuid>4fbba273-ea01-4e5c-a03c-b6d625e60500</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +51,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c7c66c4d-2f87-4cc6-861f-3c19cfba45b5</webElementGuid>
+      <webElementGuid>52b850a0-63c1-42df-bbb7-b0d8d9e1d005</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>radix-_r_a_</value>
+      <webElementGuid>8c2514bb-7868-4946-bab2-1a45534bedf5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +67,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>menu</value>
-      <webElementGuid>1b0cea27-0cfa-4cad-bd33-9551c103cdfd</webElementGuid>
+      <webElementGuid>b06f13bc-5639-4bd7-9c76-38645aa0a1ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +75,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>2d2743b6-3175-4523-a6a2-bf82a6e08bf4</webElementGuid>
+      <webElementGuid>cc10e203-923f-46b8-a47d-04d154c0b047</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,47 +83,47 @@
       <name>data-state</name>
       <type>Main</type>
       <value>closed</value>
-      <webElementGuid>2f0a6ebc-b0bc-477b-92c7-667303b8e85e</webElementGuid>
+      <webElementGuid>a1b543f1-ed3d-465c-98ac-00f2ddd23b5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-_r_l_&quot;)</value>
+      <webElementGuid>31df32ea-423b-4598-88c8-03afaf15f272</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>order-1-trigger</value>
-      <webElementGuid>3b860c46-c8af-4c03-957a-6221ec50850b</webElementGuid>
+      <value>detail-order-1</value>
+      <webElementGuid>fa8125d3-a6ef-48ed-b50f-a908c3437cb9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='radix-_r_2u_']</value>
-      <webElementGuid>67694ca0-e8ec-41f4-a18c-e1acf0ff5387</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='radix-_R_2npfl5tlb_-content-list']/div[2]/div/div/table/tbody/tr/td[6]/button</value>
-      <webElementGuid>0c158eac-e34b-46c3-9d0c-183215020981</webElementGuid>
+      <value>//button[@id='radix-_r_l_']</value>
+      <webElementGuid>640005ea-bb74-4ca9-b4c1-639fa69a5d66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='reserved'])[1]/following::button[1]</value>
-      <webElementGuid>35418502-6d32-49cb-b8da-549c5ee37260</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='pending'])[1]/following::button[1]</value>
+      <webElementGuid>2f80aa9e-bc4d-44b3-bd6b-c12a8ca86f03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='FG 003'])[1]/following::button[1]</value>
-      <webElementGuid>7683dbad-d1b1-4f33-91a0-a45af20b921b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 19.800'])[1]/following::button[1]</value>
+      <webElementGuid>414ebe00-509e-4a49-82a5-2b2f9432c995</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,22 +131,30 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Limit'])[1]/preceding::button[1]</value>
-      <webElementGuid>5b1cfdfc-17df-46a7-9b58-aacabca0fd8d</webElementGuid>
+      <webElementGuid>d17eadeb-deba-4a03-88e8-c5812eacc4fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Information'])[1]/preceding::button[2]</value>
+      <webElementGuid>df3ebfd4-7d33-4a71-9def-45e53697e0b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[6]/button</value>
-      <webElementGuid>56c5a528-67c1-4b66-a7fa-87ee2e6af810</webElementGuid>
+      <value>//td[5]/button</value>
+      <webElementGuid>47ca4910-a133-442c-9ccf-a4f2fca86c79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'radix-_r_2u_']</value>
-      <webElementGuid>ac64eb29-cc06-40a3-9dcd-53cadce3f9d9</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'radix-_r_l_']</value>
+      <webElementGuid>770e6dfb-4fb7-42ad-83ea-c87ddda49447</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

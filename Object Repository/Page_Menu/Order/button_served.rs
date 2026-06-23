@@ -1,29 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_process</name>
+   <name>button_served</name>
    <tag></tag>
-   <elementGuidId>1a516a8d-4c24-446d-8e14-5360d31b21f8</elementGuidId>
+   <elementGuidId>098d368d-8f04-46a2-8c5c-c359dbbf44d9</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@data-testid = 'detail-order-1-update' and (text() = 'process' or . = 'process')]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='radix-_r_m_']/div</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Process&quot;i</value>
-      </entry>
-   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -32,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>74be0da5-604c-4683-9f9c-0bb7baa47e93</webElementGuid>
+      <webElementGuid>68e8a0cd-2447-42bd-aedc-605fd6191a02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,7 +31,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>0c91d9eb-8e47-4574-9876-a52f3a00441d</webElementGuid>
+      <webElementGuid>8e480a55-b4bc-4d7c-a6e0-b54079d81723</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +39,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>dropdown-menu-item</value>
-      <webElementGuid>1629a6c0-1197-49b9-9385-712ddc71302b</webElementGuid>
+      <webElementGuid>a2f06c21-8b81-418f-9990-08572a4a66fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +47,7 @@
       <name>data-variant</name>
       <type>Main</type>
       <value>default</value>
-      <webElementGuid>763f1135-b512-47df-9759-2004bc00a7c3</webElementGuid>
+      <webElementGuid>4d553a6c-2fd4-4cc8-9f0f-9269487d3020</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,7 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>focus:bg-accent focus:text-accent-foreground data-[variant=destructive]:text-destructive data-[variant=destructive]:focus:bg-destructive/10 dark:data-[variant=destructive]:focus:bg-destructive/20 data-[variant=destructive]:focus:text-destructive data-[variant=destructive]:*:[svg]:!text-destructive [&amp;_svg:not([class*='text-'])]:text-muted-foreground relative flex cursor-default items-center gap-2 rounded-sm px-2 py-1.5 text-sm outline-hidden select-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 data-[inset]:pl-8 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 capitalize</value>
-      <webElementGuid>6a29771c-8ea6-4915-b6da-a906c505cc2c</webElementGuid>
+      <webElementGuid>5d1f907d-bac1-46eb-bf4d-6c15dc14c368</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -72,7 +63,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>detail-order-1-update</value>
-      <webElementGuid>72af0608-d65a-4dfc-8867-e9cce0715fa5</webElementGuid>
+      <webElementGuid>9138125e-2b93-4492-b159-133669fa17b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -80,7 +71,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>3beb283d-336e-4c76-a2ce-d8489c62c9a4</webElementGuid>
+      <webElementGuid>a0792dfd-f691-4df7-8286-4cafb66726de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -88,15 +79,15 @@
       <name>data-orientation</name>
       <type>Main</type>
       <value>vertical</value>
-      <webElementGuid>68284d99-24b6-4d30-8b20-4285246804f4</webElementGuid>
+      <webElementGuid>b4f1cbd6-adc4-4ac9-b91b-67f96d2941c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>process</value>
-      <webElementGuid>95cb50c1-06a0-4975-87b7-da791517b4cf</webElementGuid>
+      <value>served</value>
+      <webElementGuid>f7c03c64-3e38-4afd-aded-cfed8d36e137</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -104,7 +95,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;radix-_r_m_&quot;)/div[@class=&quot;focus:bg-accent focus:text-accent-foreground data-[variant=destructive]:text-destructive data-[variant=destructive]:focus:bg-destructive/10 dark:data-[variant=destructive]:focus:bg-destructive/20 data-[variant=destructive]:focus:text-destructive data-[variant=destructive]:*:[svg]:!text-destructive [&amp;_svg:not([class*='text-'])]:text-muted-foreground relative flex cursor-default items-center gap-2 rounded-sm px-2 py-1.5 text-sm outline-hidden select-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 data-[inset]:pl-8 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 capitalize&quot;]</value>
-      <webElementGuid>9d0bd69f-d51c-43b9-bc26-6a416a21447a</webElementGuid>
+      <webElementGuid>57248f7c-5102-491a-86b6-8c563dc3e2ff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +103,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='radix-_r_m_']/div</value>
-      <webElementGuid>1db77e51-ccde-49bc-9cdb-e7ad5583f0fc</webElementGuid>
+      <webElementGuid>eba4e905-4261-452c-8e05-d4cace7e8628</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,15 +111,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[3]</value>
-      <webElementGuid>ab1286cb-1c1c-492b-9b52-151b5cd2a0e0</webElementGuid>
+      <webElementGuid>61ba76c9-82f4-41e6-a509-e0d86d2d87f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='process']/parent::*</value>
-      <webElementGuid>d4faee18-b13f-43c8-9c70-2de1e96aa749</webElementGuid>
+      <value>//*/text()[normalize-space(.)='served']/parent::*</value>
+      <webElementGuid>28eda8fc-f691-441d-afd3-11075b919ccd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,14 +127,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div</value>
-      <webElementGuid>90fb653d-e7cc-4ef0-ac47-d977b84044e1</webElementGuid>
+      <webElementGuid>e6fe55e8-e280-4273-9190-d8e71c7d137a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'process' or . = 'process')]</value>
-      <webElementGuid>4d84ad9d-6bcb-4187-9dda-9c838aadbc29</webElementGuid>
+      <value>//div[(text() = 'served' or . = 'served')]</value>
+      <webElementGuid>240f34ca-1325-4f14-93e2-411c453c635a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,27 +7,28 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = '/order/WPUCAFE-1780735837542' and (text() = 'Detail' or . = 'Detail') and @data-testid = 'order-detail-btn']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>.rounded-sm</value>
+         <value>//a[@tabindex = '-1' and @data-testid = 'order-1-detail
+']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-sm ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.rounded-sm</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9d57bc5c-4a07-4d00-bc21-b8a5672db440</webElementGuid>
+      <webElementGuid>d7cb9cbd-c2bc-4005-8086-7131df2ca2cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>focus:bg-accent focus:text-accent-foreground data-[variant=destructive]:text-destructive data-[variant=destructive]:focus:bg-destructive/10 dark:data-[variant=destructive]:focus:bg-destructive/20 data-[variant=destructive]:focus:text-destructive data-[variant=destructive]:*:[svg]:!text-destructive [&amp;_svg:not([class*='text-'])]:text-muted-foreground relative flex cursor-default items-center gap-2 rounded-sm px-2 py-1.5 text-sm outline-hidden select-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 data-[inset]:pl-8 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 flex items-center gap-2</value>
-      <webElementGuid>bf07f3b3-5d5a-48a2-b029-76ea3cfc522b</webElementGuid>
+      <webElementGuid>1e83885a-c67b-48eb-accc-b70f051af2d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +44,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>e141a34b-8238-43d8-ac60-c29fb4e1f7be</webElementGuid>
+      <webElementGuid>5a8fd9e2-addc-4e0f-a17d-ca6e6bbb9439</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +52,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>dropdown-menu-item</value>
-      <webElementGuid>00161e96-b4ef-4256-a864-e2c82176c314</webElementGuid>
+      <webElementGuid>eefdba1e-3765-4510-b028-7d11e073dc0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,15 +60,15 @@
       <name>data-variant</name>
       <type>Main</type>
       <value>default</value>
-      <webElementGuid>f2f2598e-1452-42ee-9496-9f239813f256</webElementGuid>
+      <webElementGuid>bb765e94-aea4-4c9e-b0bf-54047b6d21cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>c1eb1391-c72c-4b2e-9b2b-4eeb89aee793</webElementGuid>
+      <webElementGuid>aa03d360-43ba-4bb6-9e15-02ec16d13c56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,23 +76,23 @@
       <name>data-orientation</name>
       <type>Main</type>
       <value>vertical</value>
-      <webElementGuid>f3e0ee9f-d95c-4595-b88e-4f8063766d3a</webElementGuid>
+      <webElementGuid>dd85bed3-a299-4c31-8925-d5fe2281234a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/order/WPUCAFE-1780735837542</value>
-      <webElementGuid>039878eb-4894-46a5-930e-36ece0caaa2d</webElementGuid>
+      <value>/order/ORDERCAFE-1782192940516</value>
+      <webElementGuid>725d49b2-eb68-4053-901d-5a31a281ab49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Detail</value>
-      <webElementGuid>c7ba5ae6-e282-4564-852f-4ae568a120c3</webElementGuid>
+      <webElementGuid>11d8b1f8-174d-473e-a885-203d3c223f3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,7 +100,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-b8602e5bc648978f0d609a6df65a5d9d</value>
-      <webElementGuid>f6773a18-a374-4177-b635-7e551070cdb7</webElementGuid>
+      <webElementGuid>517fb15e-c1ce-4bb3-a8d5-2a507ce52e91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -107,15 +108,16 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-sm ')]</value>
-      <webElementGuid>8aeab094-bc67-4175-83b2-040606afc2b6</webElementGuid>
+      <webElementGuid>0e19acdc-6719-4b18-8a3f-d5331ef8ecbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>order-detail-btn</value>
-      <webElementGuid>5579862c-9419-4787-bded-d922740f8608</webElementGuid>
+      <value>order-1-detail
+</value>
+      <webElementGuid>647cf8e5-ac37-4c48-91be-10eafa9e2f5d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +125,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-sm ')]</value>
-      <webElementGuid>d7e6d4ad-7f25-4bfd-9317-2be2a6bcdd58</webElementGuid>
+      <webElementGuid>5fa94a61-c105-40e9-860d-d8adf4b8a670</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/order/WPUCAFE-1780373049793' and (text() = 'Detail' or . = 'Detail')]</value>
-      <webElementGuid>6e9c2c1f-d54a-4250-bab7-d25f2b84ce91</webElementGuid>
+      <webElementGuid>18603595-b1a0-40f8-9d64-bff3f8afb992</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
