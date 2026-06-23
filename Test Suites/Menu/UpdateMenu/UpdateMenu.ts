@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>UpdateMenu</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>959d92aa-770f-48bc-9f74-31e697c2a566</testSuiteGuid>
+   <testCaseLink>
+      <guid>d300da60-a654-46d4-af56-4c25572681dd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Cases/Modules/Menu/UpdateMenu/UpdateMenu</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>14c37e0d-367f-4a41-98d2-5ae10f603993</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/LoginData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>14c37e0d-367f-4a41-98d2-5ae10f603993</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>2774f638-aea5-4108-889b-0c1b4761292a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>14c37e0d-367f-4a41-98d2-5ae10f603993</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>69c8941d-331e-4c0f-98d1-073def0ded56</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

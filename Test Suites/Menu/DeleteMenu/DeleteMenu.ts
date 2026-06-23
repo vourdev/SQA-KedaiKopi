@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DeleteMenu</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>ec0860d2-3da5-4293-aa67-b052e5e56c33</testSuiteGuid>
+   <testCaseLink>
+      <guid>e3538b4a-7a64-4652-8409-84d5920604b2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Cases/Modules/Menu/DeleteMenu/DeleteMenu</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>00d8d9dd-05c6-4272-bd0a-262d891346d6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/LoginData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>00d8d9dd-05c6-4272-bd0a-262d891346d6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>731b1803-459e-4906-b91d-6a58dd76deaf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>00d8d9dd-05c6-4272-bd0a-262d891346d6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>2e9459a3-5377-4eda-b56c-5d22195493fe</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
